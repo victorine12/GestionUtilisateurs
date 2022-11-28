@@ -1,0 +1,165 @@
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#entete, #menu, #pied, #corps
+{
+	width:100%;
+	margin: 0px; 
+}
+#entete, #menu, #pied, #menu li a
+{
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+#entete
+{
+	position: absolute;
+	height: 11%;
+	left: 0px;
+	top: 0px;
+	padding: 10px;
+	font-size: 3em;
+	text-transform: uppercase;
+	
+}
+#menu
+{
+	position: absolute;
+	height: 5%;
+	left: 0px;
+	top: 11%;
+	border-top: solid 2px white;
+	font-size: 1.5em;
+}
+#menu ul
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	margin: 0px;
+}
+#menu li 
+{
+	display: inline;
+	border-left: solid 2px white;
+	padding: 10px;
+	height: 100%;
+	justify-content: space-between;
+	margin: 40px;
+}
+#menu li a 
+{
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+}
+#corps
+{
+	position: absolute;
+	height: 80%;
+	left: 0px;
+	top: 16%;
+	margin: auto;
+	border-top: solid 2px white;
+	text-align: justify;
+	overflow: auto;
+	padding: 0px 5px;
+}
+
+#pied
+{
+	margin-top: 5%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 2%;
+	width: 100%;
+}
+#titre-principal
+{
+	text-align: center;
+	color : black;
+}
+table, th, td
+{
+	border: solid 1px bue;
+	border: solid 1px;
+	padding : 5px;
+}
+tr:first-child
+{
+	color: white;
+	background-color: black;
+}
+table
+{
+	width: fit-content;
+	margin: auto;
+	border-collapse: collapse;
+}
+.formItem
+{
+	text-align: center;
+}
+.formItem label
+{
+	margin: 0px;
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	font-size: 1.2em;
+}
+.formItem input
+{
+	height: 20px;
+	border-color: grey;
+	padding : 10px;
+	border-radius: 10px;
+}
+.formItem input[type="submit"]
+{
+	display: inline-block;
+	margin-top: 5px;
+	color: white;
+	width: 20%;
+	height: 30px;
+	background-color: black;
+	border: double 3px grey;
+	border-radius: 10px
+}
+
+#taille
+{
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	background-color: black;
+}
+
+.messageBox
+{
+	/*margin-left: 25%;*/
+	width: 50%;
+	margin: auto;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+	text-align :center;
+}
+.succes
+{
+	color: green;
+}
+.erreur, .errorMessage
+{
+	color: red;
+}
+.errorMessage{
+	text-align: center;
+}
